@@ -1,0 +1,13 @@
+@import "variables"; 
+
+%blue_gradient {
+    background: linear-gradient($dark-blue, $light-blue);
+}
+
+%red_gradient {
+    background: linear-gradient($dark-red, $light-red);
+}
+
+%yellow_gradient {
+    background: linear-gradient($dark-yellow, $light-yellow);
+}
