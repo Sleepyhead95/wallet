@@ -3,3 +3,13 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin circle {
+    border-radius: 50%;
+    border: none;
+}
+
+@mixin ellipse {
+    border-radius: 50% / 100%;
+    border: none;
+}

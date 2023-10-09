@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.scss";
+import Header from "./Header";
+import PhoneBody from "./PhoneBody";
 
 function App() {
-  return <p>Hello world.</p>;
+  return (
+    <>
+      {/* <PhoneBody /> */}
+      <Header />
+    </>
+  );
 }
 
 export default App;
