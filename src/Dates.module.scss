@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'mixins';
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.wrapper1, .wrapper2, .wrapper3, .wrapper4 {
+    @include flex-center;
+    width: 15%;
+}

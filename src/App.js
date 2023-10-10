@@ -1,6 +1,7 @@
 import "./App.scss";
 import Header from "./Header";
 import Main from "./Main";
+import Dates from "./Dates";
 // import PhoneBody from "./PhoneBody";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       {/* <PhoneBody /> */}
       <Header />
       <Main />
+      <Dates />
     </>
   );
 }
