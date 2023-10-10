@@ -1,12 +1,14 @@
 import "./App.scss";
 import Header from "./Header";
-import PhoneBody from "./PhoneBody";
+import Main from "./Main";
+// import PhoneBody from "./PhoneBody";
 
 function App() {
   return (
     <>
       {/* <PhoneBody /> */}
       <Header />
+      <Main />
     </>
   );
 }

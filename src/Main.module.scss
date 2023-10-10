@@ -1,0 +1,33 @@
+@import 'mixins';
+@import 'variables';
+@import 'gradients';
+
+main {
+    @include flex-center;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: rgba(174, 184, 196, 0.3) 0px 0px 35px;
+    border-radius: 1.3rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.BTC_wrapper{
+    @include flex-center;
+    width: 3rem;
+    height: 3rem;
+    @extend %yellow_gradient;
+    border-radius: 50%;
+}
+.container1 img {
+    width: 1.1rem;
+    height: auto;
+}
