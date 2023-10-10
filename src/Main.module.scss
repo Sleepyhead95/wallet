@@ -34,7 +34,7 @@ main {
 }
 
 .bitcoin {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     color: $dark-grey;
     text-align: left;
@@ -43,19 +43,19 @@ main {
 }
 
 .btc{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     color: $light-grey;
     font-family: "SF Pro Display", sans-serif;
 }
 
 .container2 {
-    margin-right: 7.5rem;
+    margin-right: 4.8rem;
 }
 
 .container2 h2 {
     text-align: left;
-    font-size: 1.9rem;
+    font-size: 2.3rem;
     color: $dark-grey;
     margin-bottom: 0;
     margin-top: 1rem;
@@ -71,7 +71,7 @@ main {
 }
 .dollars {
     margin-top: 0.5rem;
-    font-size: 1.125rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: $light-grey;
     font-family: "SF Pro Display", sans-serif;
@@ -79,12 +79,12 @@ main {
 
 .percent {
     @include flex-center;
-    width: 4.8rem;
-    height: 1.5rem;
+    width: 5rem;
+    height: 1.8rem;
     background-color: $red;
-    border-radius: 50% / 100%; 
+    border-radius: 0.9rem 0.9rem 0.9rem 0.9rem; 
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.9rem;
 }
 
 .percent p {
