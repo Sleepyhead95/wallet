@@ -5,12 +5,13 @@
 main {
     @include flex-center;
     flex-direction: column;
-    width: 90%;
+    width: 88%;
     height: auto;
-    padding: 2rem;
-    margin: 2rem auto;
+    padding: 1.6rem;
+    margin: 1.8rem auto;
     box-shadow: rgba(174, 184, 196, 0.3) 0px 0px 35px;
     border-radius: 1.3rem;
+    background-color: $white;
 }
 
 .container1 {
@@ -27,7 +28,77 @@ main {
     @extend %yellow_gradient;
     border-radius: 50%;
 }
-.container1 img {
+.BTC_wrapper img {
     width: 1.1rem;
     height: auto;
+}
+
+.bitcoin {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: $dark-grey;
+    text-align: left;
+    margin-right: 10rem;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.btc{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: $light-grey;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.container2 {
+    margin-right: 7.5rem;
+}
+
+.container2 h2 {
+    text-align: left;
+    font-size: 1.9rem;
+    color: $dark-grey;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-family: "SF Pro Display", sans-serif; 
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+}
+.dollars {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: $light-grey;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.percent {
+    @include flex-center;
+    width: 4.8rem;
+    height: 1.5rem;
+    background-color: $red;
+    border-radius: 50% / 100%; 
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.percent p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: $white;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+.container4 {
+    @include flex-center;
+    margin-top: 0.3rem;
+}
+
+.container4 img {
+    width: 1.8rem;
 }
