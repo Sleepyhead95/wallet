@@ -12,6 +12,14 @@
     border-radius: 1.2rem;
     padding: 1.5rem;
     box-shadow: rgba(174, 184, 196, 0.3) 0px 0px 35px;
+    cursor: pointer;
+}
+
+.sellButton:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+    box-shadow: rgba(174, 184, 196, 0.7) 0px 0px 35px;
+    
 }
 
 .sell_red {
