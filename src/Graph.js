@@ -13,12 +13,12 @@ const CustomTooltip = ({ active, payload }) => {
     return (
       <div
         style={{
-          backgroundColor: "blue",
-          padding: "5px",
-          border: "1px solid black",
+          backgroundColor: "white",
+          padding: "2px",
+          border: "none",
         }}
       >
-        <p>{`1BTC = $${payload[0].value}`}</p>
+        <p>{`$${payload[0].value}`}</p>
       </div>
     );
   }
@@ -27,7 +27,7 @@ const CustomTooltip = ({ active, payload }) => {
 
 export default function Graph() {
   return (
-    <AreaChart width={330} height={120} data={data}>
+    <AreaChart width={330} height={130} data={data}>
       <defs>
         <linearGradient id="yellowGradient" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="rgb(255, 152, 30)" />

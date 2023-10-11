@@ -15,7 +15,7 @@ export default function GraphBox() {
         </div>
       </div>
       <div className={styles.bottom_container}>
-        <Graph />
+        <Graph className="graph" />
         <div className={styles.btc_wrapper}>
           <div className={styles.yellow_dot}></div>
           <p>1 BTC = $5.483</p>
