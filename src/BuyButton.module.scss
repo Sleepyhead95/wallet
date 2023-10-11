@@ -1,0 +1,35 @@
+@import 'mixins';
+@import 'variables';
+@import 'gradients';
+
+.buyButton {
+    @include flex-center;
+    flex-direction: column;
+    width: 47%;
+    height: auto;
+    background-color: $white;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 1.5rem;
+    box-shadow: rgba(174, 184, 196, 0.3) 0px 0px 35px;
+}
+
+.buy_blue {
+    @extend %blue_gradient;
+    @include circle;
+    width: 3rem;
+    height: 3rem;
+    @include flex-center;
+}
+
+.buy_blue img {
+    width: 0.7rem;
+    height: auto;
+}
+
+.buyButton p {
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1rem;
+    color: $dark-grey;
+    margin-bottom: 0;
+}

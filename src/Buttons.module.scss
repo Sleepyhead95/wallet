@@ -1,0 +1,10 @@
+@import "variables";
+
+.buttons_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    height: auto;
+    margin-top: 1.5rem;
+}
