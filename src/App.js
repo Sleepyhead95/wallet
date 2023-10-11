@@ -4,6 +4,7 @@ import Main from "./Main";
 import Dates from "./Dates";
 import GraphBox from "./GraphBox";
 import Buttons from "./Buttons";
+import Footer from "./Footer";
 // import PhoneBody from "./PhoneBody";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Dates />
       <GraphBox />
       <Buttons />
+      <Footer />
     </>
   );
 }
