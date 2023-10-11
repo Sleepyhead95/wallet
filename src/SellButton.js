@@ -4,7 +4,7 @@ export default function SellButton() {
   return (
     <button className={styles.sellButton}>
       <div className={styles.sell_red}>
-        <img src="Dollar_icon.png" alt="sell button" />
+        <img src="dollar_sign.png" alt="sell button" />
       </div>
       <p>Sell BTC</p>
     </button>
