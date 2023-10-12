@@ -1,0 +1,44 @@
+@import 'mixins';
+@import 'variables';
+.backdrop {
+    position: fixed;
+    @include flex-center;
+    width: 26.5625rem;
+    height: 100svh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+  
+  .dropdownMenu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 72%;
+    right: 6%;
+    z-index: 2000;
+    background-color: $white;
+    width: 65%;
+    height: auto;
+    border-radius: 1rem;
+  }
+
+  .div1, .div2, .div3, .div4 {
+    width: 85%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.4rem 0;
+  }
+
+  .div1, .div2, .div3 {
+    border-bottom: 1px solid $light-grey;
+  }
+
+  .div1 p, .div2 p, .div3 p, .div4 p {
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1rem;
+    color: $dark-grey;
+  }
